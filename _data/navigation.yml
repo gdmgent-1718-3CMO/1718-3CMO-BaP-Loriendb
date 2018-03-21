@@ -9,14 +9,14 @@
 
 - name: Logo
   description: Logo
-  folder: pages/logo/
+  # folder: pages/logo/
   permalink: logo/
   # fa-icon: icon-graduation-cap
 
 - name: Typo
   description: Typo
-  folder: pages/typo/
-  permalink: typo/i
+ # folder: pages/typo/fonts
+  permalink: /typo
   # fa-icon: icon-info
 
 - name: Styleguide

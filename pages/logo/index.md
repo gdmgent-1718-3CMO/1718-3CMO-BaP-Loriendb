@@ -4,6 +4,7 @@ permalink: logo/
 published: true
 title: Logo intro
 ---
+<video width="100%"controls autoplay src="video/Animaties/Verhoudingen.mov"> hier een intro </video> 
 
 # Het beste logo ooit
 

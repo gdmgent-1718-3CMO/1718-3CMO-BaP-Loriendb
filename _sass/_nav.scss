@@ -1,14 +1,16 @@
- /* VERTICAL NAVIGATION BAR
- -------------------------------------------------- */
+<!-- /* VERTICAL NAVIGATION BAR
+ -------------------------------------------------- 
  @media (min-width: 768px) {
     .custom-nav-ver {
         .collapse {
             display: block;
+            float: right;
           
             
         }
         .navbar-collapse {
             width:100%;
+            float: right;
         }
         .dropdown-menu {
             position: static !important;
@@ -17,9 +19,11 @@
         }
         .navbar-nav {
             width: 100%;
+            float: right;
         }
         .nav-item {
             width: 100%;
+            float: right;
         }
         li.active .dropdown-menu {
             position: static !important;
@@ -27,16 +31,17 @@
         }
      }
 
- }
+ } 
 
  /* table of contents
- --------------------------- */
+ --------------------------- 
  #toc {
     margin-bottom: 1em;
     .nav {
         display: block;
     }
 
- } 
+ } --> 
+
 
  

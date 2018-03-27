@@ -1,7 +1,7 @@
-# functie uitschakelen met '#'
+  # functie uitschakelen met '#'
 # dubbele spatie voor de criteria behouden
 
-- name: Home
+- name: Home  
   description: Home
   # folder: pages/
   permalink: / 
@@ -23,4 +23,5 @@
   description: Stijlgids voor de Huistijlgids
   # folder: pages/stijlgids
   permalink: /stijlgids
-  # fa-icon: icon-info
+  # fa-icon: icon-info 
+

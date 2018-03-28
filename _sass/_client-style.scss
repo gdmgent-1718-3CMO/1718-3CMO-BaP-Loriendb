@@ -4,10 +4,12 @@
   $color: $color-white;
   border-bottom: 1px solid $color-white;
   border-top: 1px solid $color-white;
-  margin: 1em 0 2em;
+  margin: 1em 0 2em;}
 
   h1, h2, h3, h4, h5, h6,{
     font-family: $clientfont-family-title;
+    color: #faaa01;
+
   }
 
   a {
@@ -19,4 +21,3 @@
 
   // …
   
-}

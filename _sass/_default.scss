@@ -47,6 +47,15 @@ blockquote {
     padding-left: 24px;
     border-left: 2px solid $mycolor-5;
 }
+hr{
+    display: block;
+    color: #faaa01;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+}
 
 // ongeordende lijstjes met een ander symbool of kleur
 main ul {

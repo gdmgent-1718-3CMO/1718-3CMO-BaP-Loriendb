@@ -13,6 +13,12 @@ a { color: #faaa01;
         color: $mycolor-2;} 
 }
 
+.bg{
+    padding: 1rem;
+    background: url("../images/kaartback.png");
+    background-size: cover;
+  }
+
 a :hover{
     color: $mycolor-2;
 }

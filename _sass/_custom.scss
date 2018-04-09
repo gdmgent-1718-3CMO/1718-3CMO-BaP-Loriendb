@@ -29,6 +29,18 @@ body{
   height: 200px;
 }
 
+.background{
+  background-size: cover;
+  z-index: -1;
+}
+
+.boven{
+margin-top: -301px;
+
+}
+.boventext{
+  color: white;
+}
 /* FOOTER
 ----------------------------------------------
 sticked to the bottom with small content pages

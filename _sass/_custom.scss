@@ -4,6 +4,15 @@
 .navbar a {
     border: none;
 }
+.menu {
+  position: fixed;
+  right: 8em;
+  top: 20%;
+  width: 8em;
+  color: white;
+  margin: -3em 0 0 0;
+  padding: 0.5em 0.5em 0.5em 2.5em;
+}
 
 /* Background
 ---------------------------------------------
@@ -12,6 +21,7 @@
 body {
   background-image: url("images/kaartback.png");
 }
+
 
 /* FOOTER
 ----------------------------------------------
@@ -27,6 +37,7 @@ body {
     padding-bottom: 6rem;
     padding-left: 6rem;
     min-height: 100%;
+    text-align: center;
   }
 
 .bh-absolute-bottom {
@@ -49,11 +60,14 @@ footer {
 
 .imgfooter{
   width: 5%;
-  float: right;
   padding: 15px;
-  margin-right: 6em;
+  align-content: center;
 }
 
+.footertext{
+  text-align: center;
+  margin-top: 40px;
+}
 /* BACK TO TOP
 -------------------------
 */
@@ -65,7 +79,7 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:$mycolor-3; /* Set a background color */
+  background-color: $mycolor-2; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   //padding: 15px; /* Some padding */
@@ -74,7 +88,8 @@ footer {
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   &:hover {
-    background-color:$mycolor-5; 
+    background-color:$color-white; 
+    color: $mycolor-2;
   }
 }
 

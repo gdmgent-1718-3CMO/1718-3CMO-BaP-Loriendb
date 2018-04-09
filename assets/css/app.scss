@@ -7,11 +7,21 @@
 a { color: #faaa01;
     text-decoration: none;
     background-color: transparent;
-} 
+    border-bottom: none;
+    &:hover {
+        background-color: white; 
+        color: $mycolor-2;} 
+}
+
+a :hover{
+    color: $mycolor-2;
+}
+
 h1, h2, h3, h4, h5, h6,{
     font-family: $clientfont-family-title;
     color: #faaa01;
   }
+
   h2.background:before {
     border-top: 2px solid #faaa01;
     content: "";

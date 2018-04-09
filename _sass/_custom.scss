@@ -17,11 +17,17 @@
 /* Background
 ---------------------------------------------
 */
+body{
+  background-image: url('/images/kaartback.png')
+} 
 
-body {
-  background-image: url("images/kaartback.png");
+.foto{
+  height: 100%;
 }
 
+.cover{
+  height: 200px;
+}
 
 /* FOOTER
 ----------------------------------------------

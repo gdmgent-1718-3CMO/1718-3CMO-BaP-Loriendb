@@ -3,3 +3,24 @@
 @charset "UTF-8";
 
 @import "main";
+
+a { color: #faaa01;
+    text-decoration: none;
+    background-color: transparent;
+} 
+h1, h2, h3, h4, h5, h6,{
+    font-family: $clientfont-family-title;
+    color: #faaa01;
+  }
+  h2.background:before {
+    border-top: 2px solid #faaa01;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1;
+}

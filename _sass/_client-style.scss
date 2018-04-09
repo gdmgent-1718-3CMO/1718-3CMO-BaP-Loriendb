@@ -1,13 +1,15 @@
 
 .client-style {
   font-family: $clientfont-family-base;
-  $color: $clientcolor-1;
-  border-bottom: 1px solid $color-grey-2;
-  border-top: 1px solid $color-grey-2;
-  margin: 1em 0 2em;
+  $color: $color-white;
+  border-bottom: 1px solid $color-white;
+  border-top: 1px solid $color-white;
+  margin: 1em 0 2em;}
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6,{
     font-family: $clientfont-family-title;
+    color: #faaa01;
+
   }
 
   body{
@@ -15,12 +17,21 @@
   }
 
   a {
-    color: $clientcolor-5;
+    color: rgba(20, 52, 235, 0);
     &:hover {}
     &:active {}
     &:focus{}
   }
 
+  hr{
+    display: block;
+    color: #faaa01;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+}
+
   // …
   
-}

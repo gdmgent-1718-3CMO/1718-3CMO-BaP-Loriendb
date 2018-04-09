@@ -10,6 +10,10 @@
     font-family: $clientfont-family-title;
   }
 
+  body{
+    background-image: url('kaart-03.png')
+  }
+
   a {
     color: $clientcolor-5;
     &:hover {}

@@ -5,6 +5,7 @@
 
 // Greys
 $color-white: rgba(250,250,250,1);
+$color-brand: #faab01;
 $color-grey-1:rgba(240,240,240,1);
 $color-grey-2:rgba(180,180,180,1);
 $color-grey-3:rgba(90,90,90,1);
@@ -37,13 +38,13 @@ $clientcolor-5:rgba(250,120,120,1);
 
 // Imports
 // Website
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">');
 
 // Client specific
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">');
 
 // type
-$myfont-family-base: 'Raleway', serif;
+$myfont-family-base:'Ubuntu Condensed', sans-serif;
 $myfont-family-title: $myfont-family-base;
 
 // sizes
@@ -58,7 +59,7 @@ $font-weight-bold: 800;
 //------------------------------
 
 // type
-$clientfont-family-base: 'Raleway', serif;
+$clientfont-family-base: 'Ubuntu Condensed', sans-serif;
 $clientfont-family-title: $myfont-family-base;
 
 // sizes

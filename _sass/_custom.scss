@@ -30,8 +30,10 @@ body{
 }
 
 .background{
-  background-size: cover;
   z-index: -1;
+  width: 113%;
+  margin-left: -130px;
+  max-width: 120%;
 }
 
 .boven{

@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/app.scss %}">
 </head>
-<body data-spy="scroll" data-target="#toc">  
+<body>  
 
-<div class="container">
-    <div class="row">
+
         <div class="container-fluid"> 
-            <main class="col-12 col-md-9 col-lg-11 order-md-1 pt-5">
+            <main>
                     {{ content }}
                 </main>
         <div class="menu col-12 col-md-3 col-lg-2">
@@ -30,8 +29,7 @@
                <li><a href="#">///</a>
              </ul> 
         </div>
-    </div>
-</div>
+
 
 {% include footer.html %}
 {% include scripts-bottom.html %}

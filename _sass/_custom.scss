@@ -28,12 +28,14 @@
 }
 
 .boven{
-margin-top: -831px;
+margin-top: -431px;
 color: black;
 }
 
 .boventext{
   color: black;
+  margin-top: -700px;
+  align-content: center;
 }
 /* FOOTER
 ----------------------------------------------
@@ -46,7 +48,7 @@ html {
 body {
     position: relative;
     margin: 0px;;
-    min-height: 200%;
+    min-height: 100%;
     text-align: center;
   }
 

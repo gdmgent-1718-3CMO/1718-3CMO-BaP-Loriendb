@@ -6,12 +6,36 @@
 }
 .menu {
   position: fixed;
-  right: 8em;
+  right: 3em;
   top: 20%;
-  width: 8em;
+  width: 7em;
   color: white;
   margin: -3em 0 0 0;
   padding: 0.5em 0.5em 0.5em 2.5em;
+}
+
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: none;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:$mycolor-1;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: $mycolor-2;
 }
 
 /* Background
@@ -37,6 +61,15 @@ color: black;
   margin-top: -700px;
   align-content: center;
 }
+/* TEXT
+----------------------------------------------
+sticked to the bottom with small content pages
+*/
+
+.lefttext{
+  text-align: left;
+}
+
 /* FOOTER
 ----------------------------------------------
 sticked to the bottom with small content pages
@@ -47,13 +80,13 @@ html {
 
 body {
     position: relative;
-    margin: 0px;;
+    margin: 0px;
     min-height: 100%;
     text-align: center;
   }
 
 .bh-absolute-bottom {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;

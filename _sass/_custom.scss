@@ -87,6 +87,11 @@ margin-top: 150px;
   }
 
 
+main ul li:before {
+  content: '\2022';
+  color: white;
+  margin-right: 18px;
+}
 
 /* FOOTER
 ----------------------------------------------

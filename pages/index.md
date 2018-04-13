@@ -1,7 +1,10 @@
 ---
 # layout: vertical
 permalink: /
+title: Home | vzw DATS
 ---
+
+
 
 <div class="container">
 <img class="background" src="images/kaartback5.jpg">

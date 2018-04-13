@@ -11,19 +11,48 @@
 </head>
 <body>  
 
+     
+        <div class="container-fluid"> 
+            <div class="row" style="background-color: white;"> 
+                <div class="col-12 col-md-3 col-lg-2" style="
+                background-color:  white;"> 
+                <nav class="navbar navbar-expand-md navbar-light bg-light flex-column custom-nav-ver" style="background-color: white;"> 
+                    <a class="navbar-brand" href"#"> 
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 310px;" >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse flex-column" id="mainNavigation">
+                            <ul class="navbar-nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html" title="Home"> Home </a></li>
+                                <li class="nav-item "> 
+                                    <a class="nav-link" href="logo.html" title="Logo"> Logo</a>
+                                </li>    
+                                <li class="nav-item "> 
+                                        <a class="nav-link" href="typo.html" title="Typo"> Typo </a>
+                                    </li>    
+                                    <li class="nav-item "> 
+                                            <a class="nav-link" href="print.html" title="Print">Print </a>
+                                        </li>    
+                                        <li class="nav-item "> 
+                                                <a class="nav-link" href="digitaal.html" title="Digitaal"> Digitaal </a>
+                                            </li>    
+                                            <li class="nav-item "> 
+                                                    <a class="nav-link" href="fashion.html" title="Fashion"> Fashion</a>
+                                                </li>    
+                            </ul>
+                        </div>
+                </nav>
+                </div>
 
-        <div class="container"> 
-            <div class="row"> 
-            <main class="col-12 col-md-10 col-lg-12 order-md-6 pt-5">
+                <main class="col-11 col-md-6 col-lg-8 order-md-1 pt-5" >
+
                     {{ content }}
                 </main>
             </div>
-        <div class=" col-12 col-md-3 col-lg-2">
-            </div>
         </div>
 
-         
-        
+<!-- 
 <div class="sidenav">
         <a href="index.html">Home</a>
         <a href="logo.html">Logo</a>
@@ -32,46 +61,7 @@
         <a href="digitaal.html">Digitaal</a>
         <a href="fashion.html">Fashion</a>
       </div>
-
-   <!-- proberen nav -->      
-      <div class="nav-left visible-xs">
-            <div class="button" id="btn">
-              <div class="bar top"></div>
-              <div class="bar middle"></div>
-              <div class="bar bottom"></div>
-            </div>
-          </div>
-          <!-- nav-right -->
-          <main>
-            <nav>
-              <div class="nav-right hidden-xs">
-                <div class="button" id="btn">
-                  <div class="bar top"></div>
-                  <div class="bar middle"></div>
-                  <div class="bar bottom"></div>
-                </div>
-              </div>
-              <!-- nav-right -->
-            </nav>
-          
-          </main>
-          
-          <div class="sidebar">
-            <ul class="sidebar-list">
-              <li class="sidebar-item"><a href="#" class="sidebar-anchor">Home</a></li>
-              <li class="sidebar-item"><a href="#" class="sidebar-anchor">Logo</a></li>
-              <li class="sidebar-item"><a href="#" class="sidebar-anchor">Typo</a></li>
-              <li class="sidebar-item"><a href="#" class="sidebar-anchor">Print</a></li>
-               <li class="sidebar-item"><a href="#" class="sidebar-anchor">Digitaal</a></li>
-               <li class="sidebar-item"><a href="#" class="sidebar-anchor">Fashion</a></li>
-            </ul>
-          </div>
-
-
-
-
-
-
+    -->
 {% include footer.html %}
 {% include scripts-bottom.html %}
 

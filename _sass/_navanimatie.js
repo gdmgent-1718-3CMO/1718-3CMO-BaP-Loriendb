@@ -1,19 +1,9 @@
-$(document).ready(function() {
-
-    function toggleSidebar() {
-      $(".button").toggleClass("active");
-      $("main").toggleClass("move-to-left");
-      $(".sidebar-item").toggleClass("active");
-    }
-  
-    $(".button").on("click tap", function() {
-      toggleSidebar();
-    });
-  
-    $(document).keyup(function(e) {
-      if (e.keyCode === 27) {
-        toggleSidebar();
-      }
-    });
-  
+$('.topnav a').click(function(){
+    $('#sideNavigation').style.width = "250px";
+    $("#main").style.marginLeft = "250px";
+  });
+   
+  $('.closebtn').click(function(){
+    $('#sideNavigation').style.width = "0";
+    $("#main").style.marginLeft = "0";
   });

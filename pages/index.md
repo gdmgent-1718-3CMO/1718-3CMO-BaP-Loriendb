@@ -5,7 +5,7 @@ title: Home | vzw DATS
 ---
 
 <div class="container">
-   <img src="images/digitaal/Zwart_witfoto-2.jpg" style="
+   <img src="images/omslagfoto.png" style="
    width: 1470px;
    margin-left: -300px;
    margin-top: 0;

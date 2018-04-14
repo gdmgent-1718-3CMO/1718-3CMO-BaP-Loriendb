@@ -5,25 +5,35 @@
 @import "main";
 
 a { color: #faaa01;
-    text-decoration: none;
-    background-color: transparent;
-    border-bottom: none;
-    &:hover {
-        background-color: white; 
-        color: $mycolor-2;} 
-}
+   text-decoration: none;
+   background-color: transparent;
+   border-bottom: none;
+   &:hover {
+       background-color: transparent;
+       color: $mycolor-2;}
+ }
 
+.btn {
+   font-family: 'Ubuntu Condensed', sans-serif;
+   color: #faaa01;
+   &:hover {background-color: transparent;
+       color: $mycolor-2;
+      
+   }
+ }
 .bg{
-    padding: 1rem;
-    background: url("../images/kaartback.png");
-    background-size: cover;
-  }
+   padding: 1rem;
+   background: url("../images/kaartback.png");
+   background-size: cover;
+ }
 
 a :hover{
-    color: $mycolor-2;
+   color: $mycolor-2;
 }
 
 h1, h2, h3, h4, h5, h6,{
-    font-family: $clientfont-family-title;
-    color: #faaa01;
-  }
+   font-family: $clientfont-family-title;
+   color: #faaa01;
+ }
+
+

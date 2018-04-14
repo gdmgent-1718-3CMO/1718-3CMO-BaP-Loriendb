@@ -1,72 +1,72 @@
 /* VERTICAL NAVIGATION BAR
- -------------------------------------------------- */
- @media (min-width: 768px) {
-    .custom-nav-ver {
-        .collapse {
-            display: block;
-            float: right;
-            background-color: white;
+-------------------------------------------------- */
+@media (min-width: 768px) {
+   .custom-nav-ver {
+       .collapse {
+           display: block;
+           float: right;
+           background-color: white;
+        
           
-            
-        }
-        .navbar-collapse {
-            width:100%;
-            float: right;
-            background-color: white;
-        }
-        .dropdown-menu {
-            position: static !important;
-            width: 100%;
-            background-color: white;
-          
-        }
-        .navbar-nav {
-            width: 100%;
-            float: right;
-            background-color: white;
-        }
-        .nav-item {
-            width: 100%;
-            float: right;
-            background-color: white;
-        }
-        li.active .dropdown-menu {
-            position: static !important;
-            display: block  !important;
-            background-color: white;
-        }
-    
-     }
+       }
+       .navbar-collapse {
+           width:100%;
+           float: right;
+           background-color: white;
+       }
+       .dropdown-menu {
+           position: static !important;
+           width: 100%;
+           background-color: white;
+        
+       }
+       .navbar-nav {
+           width: 100%;
+           float: right;
+           background-color: white;
+       }
+       .nav-item {
+           width: 100%;
+           float: right;
+           background-color: white;
+       }
+       li.active .dropdown-menu {
+           position: static !important;
+           display: block  !important;
+           background-color: white;
+       }
+  
+    }
 
- } 
- .navbar  {
-     background-color: white;
- }
- .navbar-light .navbar-nav .nav-link {
-    color: #faaa01;
+}
+.navbar  {
+    background-color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+   color: #faaa01;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #faaa01;
+   color: #faaa01;
 }
 
 .bg-light {
-    background-color: white;
+   background-color: white;
 }
 
 .bg-light {
-    background-color: #ffff!important;
+   background-color: #ffff!important;
 }
 
- /* table of contents
- --------------------------- */
- #toc {
-    margin-bottom: 1em;
-    .nav {
-        display: block;
-    }
+/* table of contents
+--------------------------- */
+#toc {
+   margin-bottom: 1em;
+   .nav {
+       display: block;
+   }
 
- } 
+}
 
 
- 
+

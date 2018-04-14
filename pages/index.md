@@ -23,11 +23,11 @@ title: Home | vzw DATS
 
 <h2 class="col-12">Branding Guidelines</h2>
 <p class="col-12"> VZW DATS ondersteunt en ontwikkelt duurzame projecten waarbij plaatselijke NGO’s worden versterkt in hun inspanningen om de levenskwaliteit van Afrikaanse bevolkingsgroepen in co-creatie te verbeteren.
-Om dit te bewerkstelligen organiseren wij in België activiteiten om middelen te verzamelen voor de projecten en om de Noord-Zuid-problematiek onder de aandacht te brengen teneinde de Belgische bevolking te informeren over het belang van onze werking.
+Om dit te bewerkstelligen realiseren wij in België activiteiten om middelen te verzamelen voor de projecten en om de Noord-Zuid-problematiek onder de aandacht te brengen teneinde de Belgische bevolking te informeren over het belang van onze werking.
  </p>
 <div class="row box_personality">
    <div class="col-4">
-   <h3 class="lefttext" style="padding-left: 0;">The color of Yellow</h3> <br>
+   <h3 class="lefttext" style="padding-left: 0;">The color Yellow</h3> <br>
    <p class="lefttext">Vzw DATS is gericht op het zuiden. <br> We leggen bruggen tussen het Noorden en het Zuiden door onze projecten en activiteiten. Centraal in onze branding staat de gele kleur die staat voor de warme, Zuidelijke sfeer die we willen oproepen.</p>
    </div>
    <div class="col-4">

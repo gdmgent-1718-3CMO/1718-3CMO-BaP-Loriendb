@@ -1,69 +1,75 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ page.title }} | Huistijlgids - vzw DATS</title>
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/app.scss %}">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>{{ page.title }} | Huistijlgids - vzw DATS</title>
+   <!-- stylesheets -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
+   <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/app.scss %}">
+
+   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body>  
+<body> 
 
-     
-        <div class="container-fluid"> 
-            <div class="row" style="background-color: white;"> 
-                <div class="col-12 col-md-3 col-lg-2" style="
-                background-color:  white;"> 
-                <nav class="navbar navbar-expand-md navbar-light bg-light flex-column custom-nav-ver" style="background-color: white;"> 
-                    <a class="navbar-brand" href"#"> 
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 310px;" >
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse flex-column" id="mainNavigation">
-                            <ul class="navbar-nav flex-column">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html" title="Home"> Home </a></li>
-                                <li class="nav-item "> 
-                                    <a class="nav-link" href="logo.html" title="Logo"> Logo</a>
-                                </li>    
-                                <li class="nav-item "> 
-                                        <a class="nav-link" href="typo.html" title="Typo"> Typo </a>
-                                    </li>    
-                                    <li class="nav-item "> 
-                                            <a class="nav-link" href="print.html" title="Print">Print </a>
-                                        </li>    
-                                        <li class="nav-item "> 
-                                                <a class="nav-link" href="digitaal.html" title="Digitaal"> Digitaal </a>
-                                            </li>    
-                                            <li class="nav-item "> 
-                                                    <a class="nav-link" href="fashion.html" title="Fashion"> Fashion</a>
-                                                </li>    
-                            </ul>
-                        </div>
-                </nav>
-                </div>
+   
+       <div class="container-fluid">
+           <div class="row" style="background-color: white;">
+               <div class="col-12 col-md-3 col-lg-2" style="
+               background-color:  white;">
+               <nav class="navbar navbar-expand-md navbar-light bg-light flex-column custom-nav-ver" style="background-color: white;">
+                   <a class="navbar-brand" href"#">
+                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 310px;" >
+                           <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse flex-column" id="mainNavigation">
+                           <ul class="navbar-nav flex-column">
+                               <li class="nav-item">
+                                   <a class="nav-link" href="index.html" title="Home"> Home </a></li>
+                               <li class="nav-item ">
+                                   <a class="nav-link" href="logo.html" title="Logo"> Logo</a>
+                               </li>   
+                               <li class="nav-item ">
+                                       <a class="nav-link" href="typo.html" title="Typo"> Typo </a>
+                                   </li>   
+                                   <li class="nav-item ">
+                                           <a class="nav-link" href="print.html" title="Print">Print </a>
+                                       </li>   
+                                       <li class="nav-item ">
+                                               <a class="nav-link" href="digitaal.html" title="Digitaal"> Digitaal </a>
+                                           </li>   
+                                           <li class="nav-item ">
+                                                   <a class="nav-link" href="fashion.html" title="Fashion"> Fashion</a>
+                                               </li>   
+                                               <li class="nav-item ">
+                                                       <a class="nav-link" href="download.html" title="Download"> Download</a>
+                                                   </li>  
+                           </ul>
+                       </div>
+               </nav>
+               </div>
 
-                <main class="col-11 col-md-6 col-lg-8 order-md-1 pt-5" >
+               <main class="col-11 col-md-6 col-lg-8 order-md-1 pt-5" >
 
-                    {{ content }}
-                </main>
-            </div>
-        </div>
+                   {{ content }}
+               </main>
+           </div>
+       </div>
 
-<!-- 
+<!--
 <div class="sidenav">
-        <a href="index.html">Home</a>
-        <a href="logo.html">Logo</a>
-        <a href="typo.html">Typo</a>
-        <a href="print.html">Print</a>
-        <a href="digitaal.html">Digitaal</a>
-        <a href="fashion.html">Fashion</a>
-      </div>
-    -->
+       <a href="index.html">Home</a>
+       <a href="logo.html">Logo</a>
+       <a href="typo.html">Typo</a>
+       <a href="print.html">Print</a>
+       <a href="digitaal.html">Digitaal</a>
+       <a href="fashion.html">Fashion</a>
+     </div>
+   -->
 {% include footer.html %}
 {% include scripts-bottom.html %}
 
 </body>
 </html>
+

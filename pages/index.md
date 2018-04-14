@@ -18,7 +18,7 @@ title: Home | vzw DATS
 
 <div class="row">
 <div class="col-12">
-<h2 style="margin-top: 160px;margin-left: -19px;margin-bottom: 60px;" class="lefttext" id="branding"> Brand personality</h2>
+<h2 style="margin-top: 160px;margin-left: -19px;margin-bottom: 60px;color: transparent;" class="lefttext" id="branding"> Brand personality</h2>
 </div>
 
 <div class="row box_personality">

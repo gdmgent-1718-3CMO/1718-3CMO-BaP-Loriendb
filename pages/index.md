@@ -33,7 +33,7 @@ Om dit te bewerkstelligen realiseren wij in België activiteiten om middelen te 
    <div class="col-4">
    <h3 class="lefttext" style="
    padding-left: 0;"> Appealing pictures</h3> <br>
-   <p class="lefttext" > De hele werking is gericht op het verbeteren van de levenskwaliteit van Afrikanen. <br>In onze marketing willen we deze mensen en projecten een gezicht geven door gebruik te maken van attractieve en realistische beelden. Een beeld zegt nog steeds meer dan duizend woorden...</p>
+   <p class="lefttext" > De hele werking is gericht op het verbeteren van de levenskwaliteit van Afrikanen. <br>In onze marketing willen we deze mensen en projecten een gezicht geven door gebruik te maken van attractieve en realistische beelden. <br>Een beeld zegt nog steeds meer dan duizend woorden...</p>
    </div>
    <div class="col-4">
    <h3 class="lefttext" style="
